@@ -14,7 +14,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Caveat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: var(--background);
 }
 
@@ -26,6 +26,3 @@ a{
   box-sizing: border-box;
 }
 
-.caveat{
-  font-family: 'Caveat', sans-serif;
-}

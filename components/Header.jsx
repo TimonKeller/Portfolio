@@ -10,7 +10,7 @@ const Header = () => {
             <div className='w-full inline-block'>
                 <div className='md-float-left block flex justify-between items-center'>
                     <Link href='/'>
-                        <span className='caveat text-text cursor-pointer font-bold text-4xl'>
+                        <span className='font-caveat text-text cursor-pointer font-bold text-4xl'>
                             Timon.
                         </span>
                     </Link>
@@ -38,7 +38,7 @@ const Header = () => {
                     </div>
                     <div className='hidden md:inline-block'>
                         <a href="mailto:timon.keller@bluewin.ch">
-                            <button className='caveat text-text font-bold text-xl mt-2 border-2 rounded-full p-2 hover:bg-white hover:text-black'>
+                            <button className='font-caveat text-text font-bold text-xl mt-2 border-2 rounded-full p-2 hover:bg-white hover:text-black'>
                                 Contact me
                             </button>
                         </a>
