@@ -8,7 +8,7 @@ const TopPart = () => {
             <a className='text-center md:text-start font-caveat text-2xl text-text'> {"Hi, I'm Timon Keller"} </a>
             <p className='text-center md:text-start text-5xl md:text-6xl text-text'>Creating experiences, building digital products </p>
             <a href="mailto:timon.keller@bluewin.ch" className='self-center md:self-start'>
-                <button className='font-caveat text-text font-bold text-3xl mt-6 border-2 rounded-full p-4 hover:bg-white hover:text-black'>
+                <button className='font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-white hover:text-black'>
                     Contact me
                 </button>
             </a>
