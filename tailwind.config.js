@@ -9,7 +9,7 @@ module.exports = {
       colors:{
         'background': '#1A1A1A',
         'text': '#FAF9F6',
-        'violet': '#8A50E8'
+        'blue': '#0080FF'
       },
       fontFamily: {
         'caveat': ['Caveat', 'sans-serif'] 

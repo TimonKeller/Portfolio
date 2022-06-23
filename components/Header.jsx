@@ -10,7 +10,7 @@ const Header = () => {
             <div className='w-full inline-block'>
                 <div className='md-float-left block flex justify-between items-center'>
                     <Link href='/'>
-                        <span className='font-caveat text-text cursor-pointer font-bold text-4xl'>
+                        <span className='font-caveat text-blue cursor-pointer font-bold text-4xl'>
                             Timon.
                         </span>
                     </Link>

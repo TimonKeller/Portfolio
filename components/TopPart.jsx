@@ -8,7 +8,7 @@ const TopPart = () => {
             <a className='text-center md:text-start font-caveat text-2xl text-text'> {"Hi, I'm Timon Keller"} </a>
             <p className='text-center md:text-start text-5xl md:text-6xl text-text'>Creating experiences, building digital products </p>
             <a href="mailto:timon.keller@bluewin.ch" className='self-center md:self-start'>
-                <button className='font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-white hover:text-black'>
+                <button className='font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue'>
                     Contact me
                 </button>
             </a>
@@ -23,11 +23,17 @@ const TopPart = () => {
                 src='/github_profile.png' 
                 alt="github"/>
             </a>
+            
             <img 
-            className='mx-6'
+            className=''
             src='/blob_about.png'
             alt='about_blob'
             ></img>
+            <img
+             className='absolute scale-150'
+             src='/portolio_test.png'
+             alt='portfolio_test'>
+            </img>
             <a 
             className='w-14 inline-block self-end opacity-60 hover:opacity-100'
             href="https://www.linkedin.com/in/timon-keller-364308206/" 
