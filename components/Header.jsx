@@ -5,7 +5,7 @@ import { Transition } from '@headlessui/react';
 const Header = () => {
     const [isOpen,setIsOpen] = useState(false);
   return (
-    <div className='bg-background px-4 md:px-0 sticky z-100'>
+    <div className=' sticky top-0 z-50 bg-background px-4 md:px-0 z-100'>
         <div className='container mx-auto mb-12 px-4 md:px-0 py-6'>
             <div className='w-full inline-block'>
                 <div className='md-float-left block flex justify-between items-center'>
@@ -15,7 +15,7 @@ const Header = () => {
                         </span>
                     </Link>
                     <div className=' hidden md:inline-block text-md'>
-                        <Link href='/' smooth={true}>
+                        <Link href='#about' smooth>
                             <span className='cursor-pointer font-bold  text-gray-400 hover:text-blue pr-4'>
                                 About me
                             </span>
@@ -72,18 +72,18 @@ const Header = () => {
            leaveTo='opacity-0 scale-95'>
             {(ref) => (
                 <div className='md:hidden id=mobile-menu flex justify-center'>
-                    <div ref={ref} className='text-2xl bg-background px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col gap-y-6 pt-16 justify-center align-center cursor-pointer font-bold text-gray-400 hover:text-text'>
-                        <Link href='/aboutMe' smooth={true}>
-                            About me
+                    <div ref={ref} className='text-2xl bg-background px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col gap-y-6 justify-center align-center cursor-pointer font-bold text-gray-400 hover:text-text min-h-screen'>
+                        <Link href='#about' smooth={true}>
+                            <a onClick= {() => setIsOpen(!isOpen)}> About me</a>
                         </Link>
-                        <Link href='/posts' smooth={true}>
-                            Services
+                        <Link href='#posts' smooth={true}>
+                            <a onClick= {() => setIsOpen(!isOpen)}>Services</a>                        
                         </Link>
-                        <Link href='/aboutUs' smooth={true}>
-                            Projects
+                        <Link href='#aboutUs' smooth={true}>
+                            <a onClick= {() => setIsOpen(!isOpen)}>Projects</a>                          
                         </Link>
-                        <Link href='/aboutUs' smooth={true}>
-                            Contact
+                        <Link href='#aboutUs' smooth={true}>
+                            <a onClick= {() => setIsOpen(!isOpen)}>Contact</a>
                         </Link>
                     </div>
                 </div>

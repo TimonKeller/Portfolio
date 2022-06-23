@@ -9,6 +9,10 @@
 :root{
     --background: #1A1A1A;
 }
+*{
+  scroll-behavior: smooth;
+}
+
 
 html,
 body {

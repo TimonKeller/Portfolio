@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const TopPart = () => {
   return (
-    <div className='container px-16 md:py-16 md:flex md:flex-row gap-x-8 items-center'>
+    <div className='container px-16 mt-16 md:py-16 md:flex md:flex-row gap-x-8 items-center '>
         <div className='flex flex-col gap-y-4 tex-center'>
             <a className='text-center md:text-start font-caveat text-2xl text-text'> {"Hi, I'm Timon Keller"} </a>
             <p className='text-center md:text-start text-5xl md:text-6xl text-text'>Creating experiences, building digital products </p>
@@ -13,7 +13,7 @@ const TopPart = () => {
                 </button>
             </a>
         </div>
-        <div className='scale-100 w-full mt-24 md:mt-0 md:w-3/5 flex flex-col justify-center gap-y-64 md:gap-y-64 lg:gap-y-80'>
+        <div className='hidden  scale-100 w-full mt-24 md:mt-0 md:w-3/5 md:flex flex-col justify-center gap-y-64 md:gap-y-64 lg:gap-y-80'>
             <a 
             className='w-14 inline-block opacity-60 hover:opacity-100 mb-16 relative fill-white bg-none'
             href="https://github.com/TimonKeller" 

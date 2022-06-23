@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { TopPart } from '../components'
+import { AboutMe, TopPart } from '../components'
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet"/>
       </Head>
         <TopPart></TopPart>
+        <AboutMe></AboutMe>
     </div>
   )
 }
