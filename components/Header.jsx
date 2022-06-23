@@ -16,29 +16,29 @@ const Header = () => {
                     </Link>
                     <div className=' hidden md:inline-block text-md'>
                         <Link href='/' smooth={true}>
-                            <span className='cursor-pointer font-bold  text-gray-400 hover:text-text pr-4'>
+                            <span className='cursor-pointer font-bold  text-gray-400 hover:text-blue pr-4'>
                                 About me
                             </span>
                         </Link>
                         <Link href='/posts' smooth={true}>
-                            <span className='cursor-pointer font-bold text-gray-400 hover:text-text pr-4'>
+                            <span className='cursor-pointer font-bold text-gray-400 hover:text-blue pr-4'>
                                 Services
                             </span>
                         </Link>
                         <Link href='/aboutUs' smooth={true}>
-                            <span className='cursor-pointer font-bold text-gray-400 hover:text-text pr-4'>
+                            <span className='cursor-pointer font-bold text-gray-400 hover:text-blue pr-4'>
                                 Projects
                             </span>
                         </Link>
                         <Link href='/aboutUs' smooth={true}>
-                            <span className='cursor-pointer font-bold text-gray-400 hover:text-text'>
+                            <span className='cursor-pointer font-bold text-gray-400 hover:text-blue'>
                                 Contact
                             </span>
                         </Link>
                     </div>
                     <div className='hidden md:inline-block'>
                         <a href="mailto:timon.keller@bluewin.ch">
-                            <button className='font-caveat text-text font-bold text-xl mt-2 border-2 rounded-full p-2 hover:bg-white hover:text-black'>
+                            <button className='font-caveat text-text font-bold text-xl mt-2 border-2 rounded-full p-2 hover:bg-blue hover:border-blue'>
                                 Contact me
                             </button>
                         </a>

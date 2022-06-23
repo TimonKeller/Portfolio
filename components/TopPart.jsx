@@ -13,9 +13,9 @@ const TopPart = () => {
                 </button>
             </a>
         </div>
-        <div className='scale-100 w-full mt-24 md:mt-0 md:w-3/5 flex flex-col'>
+        <div className='scale-100 w-full mt-24 md:mt-0 md:w-3/5 flex flex-col justify-center gap-y-64 md:gap-y-64 lg:gap-y-80'>
             <a 
-            className='w-14 inline-block opacity-60 hover:opacity-100'
+            className='w-14 inline-block opacity-60 hover:opacity-100 mb-16 relative fill-white bg-none'
             href="https://github.com/TimonKeller" 
             target="_blank"
             rel='noreferrer'>
@@ -23,24 +23,17 @@ const TopPart = () => {
                 src='/github_profile.png' 
                 alt="github"/>
             </a>
-            
-            <img 
-            className=''
-            src='/blob_about.png'
-            alt='about_blob'
-            ></img>
-            <img
-             className='absolute scale-150'
-             src='/portfolio_test.png'
-             alt='portfolio_test'>
-            </img>
+                <img
+                className='absolute md:m-8 bg-transparent bg-[url("/blob_about.png")] bg-no-repeat bg-contain '
+                src='/portfolio_test.png'
+                alt='portfolio_test'>
+                </img>
             <a 
-            className='w-14 inline-block self-end opacity-60 hover:opacity-100'
+            className='w-14 inline-block self-end opacity-60 hover:opacity-100 relative mt'
             href="https://www.linkedin.com/in/timon-keller-364308206/" 
             target="_blank"
             rel='noreferrer'>
                 <img 
-                className='w-14 inline-block self-end opacity-60 hover:opacity-100'
                 src='/linkedin_profile.png' 
                 alt="github"/>
             </a>
