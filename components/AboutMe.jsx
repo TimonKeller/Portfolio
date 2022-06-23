@@ -2,14 +2,14 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className='container px-16 my-24 py-16 md:flex md:flex-row  w-full' id='about'>
-        <div className=' flex mb-16 flex-col gap-y-2 tex-center md:ml-8 md:w-full'>
+    <div className='container my-24 px-8 md:px-0 py-16 md:flex md:flex-row w-full' id='about'>
+        <div className=' flex mb-16 flex-col gap-y-2 tex-center md:ml-24 md:w-2/3'>
             <a className='text-center text-7xl md:text-start font-caveat md:text-9xl text-text font-black'> This is</a>
             <a className='text-center md:text-start font-caveat text-9xl text-blue font-black md:ml-52'> Me</a>
         </div>
         <div className='w-full flex flex-col'>
                      <p className='text-center md:text-start font-caveat text-4xl text-blue pb-4'>
-                     {"Hi, I'm Timon Keller"}
+                     {"Wat I've been doing"}
                     </p>
                     <p className='text-center md:text-start text-xl text-text pb-8 md:pb-4'>
                         I’ve been studying iCompetence at the FHNW since 2019. I love creating cool designed projects and letting the user experience digital products
