@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { AboutMe, TopPart } from '../components'
+import { AboutMe, Contact, Projects, Services, TopPart } from '../components'
 
 export default function Home() {
   return (
@@ -14,6 +14,9 @@ export default function Home() {
       </Head>
         <TopPart></TopPart>
         <AboutMe></AboutMe>
+        <Services></Services>
+        <Projects></Projects>
+        <Contact></Contact>
     </div>
   )
 }

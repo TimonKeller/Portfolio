@@ -2,7 +2,28 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className='pt-80' id='about'>Test</div>
+    <div className='container px-16 my-24 py-16 md:flex md:flex-row  w-full' id='about'>
+        <div className=' flex mb-16 flex-col gap-y-2 tex-center md:ml-8 md:w-full'>
+            <a className='text-center text-7xl md:text-start font-caveat md:text-9xl text-text font-black'> This is</a>
+            <a className='text-center md:text-start font-caveat text-9xl text-blue font-black md:ml-52'> Me</a>
+        </div>
+        <div className='w-full flex flex-col'>
+                     <p className='text-center md:text-start font-caveat text-4xl text-blue pb-4'>
+                     {"Hi, I'm Timon Keller"}
+                    </p>
+                    <p className='text-center md:text-start text-xl text-text pb-8 md:pb-4'>
+                        I’ve been studying iCompetence at the FHNW since 2019. I love creating cool designed projects and letting the user experience digital products
+                        <br/>
+                        <br/>
+                        Currently, I’m in the transferring phase into the working world. I’m looking forward to getting practical experience and learning new things.                   
+                    </p>
+                    <a className='font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start' href="lebenslauf.pdf" download target="_blank">
+                        <button>
+                            Download CV
+                        </button>
+                    </a>
+        </div>
+    </div>
   )
 }
 

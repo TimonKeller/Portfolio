@@ -20,17 +20,17 @@ const Header = () => {
                                 About me
                             </span>
                         </Link>
-                        <Link href='/posts' smooth={true}>
+                        <Link href='#services' smooth={true}>
                             <span className='cursor-pointer font-bold text-gray-400 hover:text-blue pr-4'>
                                 Services
                             </span>
                         </Link>
-                        <Link href='/aboutUs' smooth={true}>
+                        <Link href='#projects' smooth={true}>
                             <span className='cursor-pointer font-bold text-gray-400 hover:text-blue pr-4'>
                                 Projects
                             </span>
                         </Link>
-                        <Link href='/aboutUs' smooth={true}>
+                        <Link href='#contact' smooth={true}>
                             <span className='cursor-pointer font-bold text-gray-400 hover:text-blue'>
                                 Contact
                             </span>
@@ -76,13 +76,13 @@ const Header = () => {
                         <Link href='#about' smooth={true}>
                             <a onClick= {() => setIsOpen(!isOpen)}> About me</a>
                         </Link>
-                        <Link href='#posts' smooth={true}>
+                        <Link href='#services' smooth={true}>
                             <a onClick= {() => setIsOpen(!isOpen)}>Services</a>                        
                         </Link>
-                        <Link href='#aboutUs' smooth={true}>
+                        <Link href='#projects' smooth={true}>
                             <a onClick= {() => setIsOpen(!isOpen)}>Projects</a>                          
                         </Link>
-                        <Link href='#aboutUs' smooth={true}>
+                        <Link href='#contact' smooth={true}>
                             <a onClick= {() => setIsOpen(!isOpen)}>Contact</a>
                         </Link>
                     </div>
