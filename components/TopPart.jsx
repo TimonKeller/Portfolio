@@ -31,7 +31,7 @@ const TopPart = () => {
             ></img>
             <img
              className='absolute scale-150'
-             src='/portolio_test.png'
+             src='/portfolio_test.png'
              alt='portfolio_test'>
             </img>
             <a 
