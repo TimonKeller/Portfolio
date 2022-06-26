@@ -2,7 +2,42 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className='container' id='projects'>Projects</div>
+    <div className='container mt-36 px-24' id='projects'>
+      <div className='text-center text-6xl text-text'>
+          My recent Work
+      </div>
+      <div className='md:px-0 py-16 md:grid md:grid-cols-12 mt-12 gap-x-16'>
+        <div className='lg:col-span-5 text-center'>
+            <img src='/leadTool.png' className='justify-center rounded-md'></img>
+        </div>
+        <div className='justify-center lg:col-span-7 flex flex-col gap-y-2'>
+          <p className='text-text text-xl mb-4 opacity-60'>Web Application</p>
+          <p className='font-caveat text-blue text-6xl mb-2'>Lead Tool</p>
+          <p className='text-text text-xl mb-4'>LeadTool is a lead management tool that I developed with some fellow students for Allianz Suisse. </p>
+          <a className='font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start' href="/lebenslauf.pdf" download target="_blank">
+              <button>
+                  Read More
+              </button>
+          </a>
+        </div>
+      </div> 
+      <div className='md:px-0 py-16 md:grid md:grid-cols-12 mt-12 gap-x-16'>
+       
+        <div className='justify-center lg:col-span-7 flex flex-col gap-y-2'>
+          <p className='text-text text-xl mb-4 opacity-60'>Web Application</p>
+          <p className='font-caveat text-blue text-6xl mb-2'>Lead Tool</p>
+          <p className='text-text text-xl mb-4'>LeadTool is a lead management tool that I developed with some fellow students for Allianz Suisse. </p>
+          <a className='font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start' href="/lebenslauf.pdf" download target="_blank">
+              <button>
+                  Read More
+              </button>
+          </a>
+        </div>
+        <div className='lg:col-span-5 text-center'>
+            <img src='/leadTool.png' className='justify-center rounded-md'></img>
+        </div>
+      </div>   
+    </div>
   )
 }
 

@@ -20,11 +20,6 @@ const Header = () => {
                                 About me
                             </span>
                         </Link>
-                        <Link href='#services' smooth={true}>
-                            <span className='cursor-pointer font-bold text-gray-400 hover:text-blue pr-4'>
-                                Services
-                            </span>
-                        </Link>
                         <Link href='#projects' smooth={true}>
                             <span className='cursor-pointer font-bold text-gray-400 hover:text-blue pr-4'>
                                 Projects
@@ -75,9 +70,6 @@ const Header = () => {
                     <div ref={ref} className='text-2xl bg-background px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col gap-y-6 justify-center align-center cursor-pointer font-bold text-gray-400 hover:text-text min-h-screen'>
                         <Link href='#about' smooth={true}>
                             <a onClick= {() => setIsOpen(!isOpen)}> About me</a>
-                        </Link>
-                        <Link href='#services' smooth={true}>
-                            <a onClick= {() => setIsOpen(!isOpen)}>Services</a>                        
                         </Link>
                         <Link href='#projects' smooth={true}>
                             <a onClick= {() => setIsOpen(!isOpen)}>Projects</a>                          
