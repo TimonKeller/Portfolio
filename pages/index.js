@@ -15,7 +15,6 @@ export default function Home() {
         <TopPart></TopPart>
         <AboutMe></AboutMe>
         <Projects></Projects>
-        <Contact></Contact>
     </div>
   )
 }
