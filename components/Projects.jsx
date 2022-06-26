@@ -12,7 +12,7 @@ const Projects = () => {
           <p className="mt-4 text-center md:mt-0 md:text-start text-text text-xl mb-4 opacity-60">
             Web Application
           </p>
-          <p className="text-center md:text-start font-caveat text-blue text-6xl mb-2">
+          <p className="text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-2">
             Lead Tool
           </p>
           <p className="text-center md:text-start text-text text-xl mb-4">
@@ -34,7 +34,7 @@ const Projects = () => {
           <p className="mt-4 md:mt-0 text-center md:text-start text-text text-xl mb-4 opacity-60">
             Landing Page/Nudging Research
           </p>
-          <p className="text-center md:text-start font-caveat text-blue text-6xl mb-2">
+          <p className="text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-2">
             GEIGER
           </p>
           <p className="text-center md:text-start text-text text-xl mb-4">
@@ -66,7 +66,7 @@ const Projects = () => {
           <p className=" mt-4 text-center md:mt-0 md:text-start text-text text-xl mb-4 opacity-60">
             Web Application
           </p>
-          <p className="text-center md:text-start font-caveat text-blue text-6xl mb-2">
+          <p className="text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-2">
             Lead Tool
           </p>
           <p className="text-center md:text-start text-text text-xl mb-4">
@@ -88,8 +88,8 @@ const Projects = () => {
           <p className="mt-4 md:mt-0 text-center md:text-start text-text text-xl mb-4 opacity-60">
             Landing Page/Nudging Research
           </p>
-          <p className="text-center md:text-start font-caveat text-blue text-6xl mb-2">
-            GEIGER
+          <p className="text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-2">
+            Blog
           </p>
           <p className="text-center md:text-start text-text text-xl mb-4">
             In the fifth semester of my studies, I was allowed to create a
