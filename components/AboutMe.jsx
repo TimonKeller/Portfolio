@@ -9,10 +9,10 @@ const AboutMe = () => {
         </div>
         <div className='w-full flex flex-col'>
             <p className='text-center md:text-start font-caveat text-4xl text-blue pb-4'>
-                {"Wat I've been doing"}
+                {"What I've been doing"}
             </p>
             <p className='text-center md:text-start text-xl text-text pb-8 md:pb-4'>
-                I’ve been studying iCompetence at the FHNW since 2019. I love creating cool designed projects and letting the user experience digital products
+                I’ve been studying iCompetence at the FHNW since 2019. I love creating cool designed projects and letting the user experience digital products.
                 <br/>
                 <br/>
                 Currently, I’m in the transferring phase into the working world. I’m looking forward to getting practical experience and learning new things.                   
