@@ -9,9 +9,12 @@ const Projects = () => {
       <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
         <div className="lg:col-span-5 text-center">
           <Tilt className="tilt">
-            <a href="/leadTool">
-              <img src="/leadTool.png" className="justify-center rounded-md" />
-            </a>
+            <Link href="/leadTool">
+              <img
+                src="/leadTool.png"
+                className="justify-center rounded-md cursor-pointer"
+              />
+            </Link>
           </Tilt>
         </div>
         <div className="justify-center lg:col-span-7 flex flex-col gap-y-2">
@@ -53,21 +56,24 @@ const Projects = () => {
         </div>
         <div className="lg:col-span-5 text-center order-1 lg:order-2">
           <Tilt className="tilt">
-            <a href="/geiger">
-              <img src="/geiger.png" className="justify-center rounded-md" />
-            </a>
+            <Link href="/geiger">
+              <img
+                src="/geiger.png"
+                className="justify-center rounded-md cursor-pointer"
+              />
+            </Link>
           </Tilt>
         </div>
       </div>
       <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
         <div className="lg:col-span-5 text-center">
           <Tilt className="tilt">
-            <a href="goldenGoose">
+            <Link href="goldenGoose">
               <img
                 src="/goldenGoose.png"
-                className="justify-center rounded-md"
+                className="justify-center rounded-md cursor-pointer"
               />
-            </a>
+            </Link>
           </Tilt>
         </div>
         <div className="justify-center lg:col-span-7 flex flex-col gap-y-2">
@@ -110,9 +116,12 @@ const Projects = () => {
         </div>
         <div className="lg:col-span-5 text-center order-1 lg:order-2">
           <Tilt className="tilt">
-            <a href="/blog">
-              <img src="/blog.png" className="justify-center rounded-md" />
-            </a>
+            <Link href="/blog">
+              <img
+                src="/blog.png"
+                className="justify-center rounded-md cursor-pointer"
+              />
+            </Link>
           </Tilt>
         </div>
       </div>
