@@ -5,7 +5,7 @@ import Tilt from "react-vanilla-tilt";
 const Projects = () => {
   return (
     <div
-      className="container mt-24 md:mt-48 px-8 scroll-mt-96 lg:scroll-mt-24"
+      className="container mt-24 md:mt-48 px-8 scroll-mt-24 lg:scroll-mt-24"
       id="projects"
     >
       <div className="text-center text-6xl text-text">My recent Work</div>

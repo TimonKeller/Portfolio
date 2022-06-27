@@ -98,13 +98,13 @@ const Header = () => {
                 ref={ref}
                 className="text-2xl bg-background px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col gap-y-6 justify-center align-center cursor-pointer font-bold text-gray-400 hover:text-text min-h-screen"
               >
-                <Link href="#about" smooth={true}>
+                <Link href="#about" smooth>
                   <a onClick={() => setIsOpen(!isOpen)}> About me</a>
                 </Link>
-                <Link href="#projects" smooth={true}>
+                <Link href="#projects" smooth>
                   <a onClick={() => setIsOpen(!isOpen)}>Projects</a>
                 </Link>
-                <Link href="#contact" smooth={true}>
+                <Link href="#contact" smooth>
                   <a onClick={() => setIsOpen(!isOpen)}>Contact</a>
                 </Link>
               </div>
