@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
-import { Transition } from "@headlessui/react";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className=" sticky top-0 z-50 bg-background px-4 md:px-0 z-100">
       <div className="container mx-auto mb-12 px-4 md:px-0 py-6">
