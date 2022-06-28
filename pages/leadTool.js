@@ -2,7 +2,7 @@ import React from 'react'
 
 const leadTool = () => {
   return (
-    <div className='container mx-auto mb-8'>
+    <div className='container mx-auto mb-8 px-10 md:px-0'>
       <div className='flex flex-col shadow-md shadow-black rounded-md'>
         {<img src='/leadTool_cropped.png' className='rounded-md self-start'/>}
         <div className='px-20 mt-20'>
