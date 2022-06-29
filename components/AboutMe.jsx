@@ -32,13 +32,10 @@ const AboutMe = () => {
           looking forward to getting practical experience and learning new
           things.
         </span>
-        <Link
-          className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start hover:-translate-y-2 hover:duration-200 hover:ease-in"
-          href="/lebenslauf.pdf"
-          download
-          target="_blank"
-        >
-          <button>Download CV</button>
+        <Link href="/lebenslauf.pdf" download target="_blank">
+          <button className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start hover:-translate-y-2 hover:duration-200 hover:ease-in">
+            Download CV
+          </button>
         </Link>
       </div>
     </div>
