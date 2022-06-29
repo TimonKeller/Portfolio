@@ -158,11 +158,14 @@ const Projects = () => {
               Tailwind
             </a>
           </div>
-          <Link href="/blog">
-            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
-              Read More
-            </a>
-          </Link>
+          <a
+            href="https://blog-ochre-seven.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in"
+          >
+            To Blog
+          </a>
         </div>
         <div className="lg:col-span-5 text-center order-1 lg:order-2 place-self-center">
           <Tilt className="tilt">
