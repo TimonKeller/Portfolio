@@ -17,7 +17,7 @@ const Projects = () => {
             <Link href="/leadTool">
               <img
                 src="/leadTool.png"
-                className="justify-center rounded-md cursor-pointer"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 hover:scale-[110%] hover:ease-out"
               />
             </Link>
           </Tilt>
@@ -29,13 +29,24 @@ const Projects = () => {
           <p className="text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-2">
             Lead Tool
           </p>
-          <p className="text-center md:text-start text-text text-xl mb-4">
+          <p className="text-center md:text-start text-text text-xl mb-2">
             LeadTool is a CRUD web application that I was allowed to develop for
             Allianz Suisse in my third and fourth semester at the FHNW together
             with fellow students.
           </p>
+          <div className="flex flex-row">
+            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+              React
+            </a>
+            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+              Java Spring
+            </a>
+            <a className="border-b-2 p-2 text-text text-sm mb-4 opacity-60">
+              Java Spring
+            </a>
+          </div>
           <Link href="/leadTool">
-            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start">
+            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
               Read More
             </a>
           </Link>
@@ -55,7 +66,7 @@ const Projects = () => {
             should convince the user to buy the product using nudges.
           </p>
           <Link href="/geiger">
-            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start">
+            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
               Read More
             </a>
           </Link>
@@ -65,7 +76,7 @@ const Projects = () => {
             <Link href="/geiger">
               <img
                 src="/geiger.png"
-                className="justify-center rounded-md cursor-pointer"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 hover:scale-[110%] hover:ease-out"
               />
             </Link>
           </Tilt>
@@ -77,7 +88,7 @@ const Projects = () => {
             <Link href="goldenGoose">
               <img
                 src="/goldenGoose.png"
-                className="justify-center rounded-md cursor-pointer"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 hover:scale-[110%] hover:ease-out"
               />
             </Link>
           </Tilt>
@@ -95,7 +106,7 @@ const Projects = () => {
             that should link to the discord server and the packages.
           </p>
           <Link href="/goldenGoose">
-            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start">
+            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
               Read More
             </a>
           </Link>
@@ -115,7 +126,7 @@ const Projects = () => {
             graphcms.
           </p>
           <Link href="/blog">
-            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start">
+            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
               Read More
             </a>
           </Link>
@@ -125,7 +136,7 @@ const Projects = () => {
             <Link href="/blog">
               <img
                 src="/blog.png"
-                className="justify-center rounded-md cursor-pointer"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 hover:scale-[110%] hover:ease-out"
               />
             </Link>
           </Tilt>

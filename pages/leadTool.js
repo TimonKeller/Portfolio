@@ -41,28 +41,31 @@ const leadTool = () => {
             <br/>
             It was also the first time I was involved in a project where I worked with a real customer, and Scrum was applied.                 
           </p>
-          <h1 className='text-center md:text-start text-blue text-3xl mb-10'>
-            The Solution
-          </h1>
+          
           <div className='flex flex-col-reverse md:flex-row gap-x-10 justify-center'>
-            <ul className='mt-10 list-decimal marker:text-blue marker:font-caveat marker:text-2xl'>
-              <li className='text-center md:text-start text-text text-lg mb-4 text-xl'>
-                The leads are divided into two lists: the new leads and the leads that have already been processed for the first time.
-              </li>
-              <li className='text-center md:text-start text-text text-lg mb-4'>
-                All leads are visible at a glance
-              </li>
-              <li className='text-center md:text-start text-text text-lg mb-4'>
-                All CRUD operations are simple and can be executed with one click
-              </li>
-              <li className='text-center md:text-start text-text text-lg mb-4'>
-                Excel lists of leads can be imported and processed leads can be exported to Excel lists.
-              </li>
-              <li className='text-center md:text-start text-text text-lg mb-4'>
-                Leads can be assigned to one of four types, so that they are correctly assigned when exporting the list
-              </li>
-            </ul>
-            <img src='/leadTool_solution.png' className='self-center mb-10 md:w-1/2 rounded-md bg-blend-blur'/>
+            <div className='self-center'>
+              <h1 className='text-center md:text-start text-blue text-3xl mb-10'>
+                The Solution
+              </h1>
+              <ul className='mt-10 list-decimal marker:text-blue marker:font-caveat marker:text-2xl px-4'>
+                <li className='text-center md:text-start text-text text-lg mb-4 text-xl'>
+                  The leads are divided into two lists: the new leads and the leads that have already been processed for the first time.
+                </li>
+                <li className='text-center md:text-start text-text text-lg mb-4'>
+                  All leads are visible at a glance
+                </li>
+                <li className='text-center md:text-start text-text text-lg mb-4'>
+                  All CRUD operations are simple and can be executed with one click
+                </li>
+                <li className='text-center md:text-start text-text text-lg mb-4'>
+                  Excel lists of leads can be imported and processed leads can be exported to Excel lists.
+                </li>
+                <li className='text-center md:text-start text-text text-lg mb-4'>
+                  Leads can be assigned to one of four types, so that they are correctly assigned when exporting the list
+                </li>
+              </ul>
+            </div>
+            <img src='/leadTool_solution.png' className='self-center mb-10 md:w-1/2 rounded-md bg-blend-blur hover:duration-200 hover:scale-[110%] hover:ease-out'/>
           </div>
         </div>
       </div>

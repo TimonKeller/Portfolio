@@ -10,10 +10,11 @@ const AboutMe = () => {
         <a className="text-center text-7xl md:text-start font-caveat md:text-9xl text-text font-black">
           {" "}
           This is
-        </a>
-        <a className="text-center md:text-start font-caveat text-7xl md:text-9xl text-blue font-black md:ml-52">
-          {" "}
-          Me
+          <br />
+          <a className="text-center md:text-start font-caveat text-7xl md:text-9xl text-blue font-black md:ml-52">
+            {" "}
+            Me
+          </a>
         </a>
       </div>
       <div className="w-full flex flex-col">
@@ -31,7 +32,7 @@ const AboutMe = () => {
           things.
         </p>
         <a
-          className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start"
+          className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start hover:-translate-y-2 hover:duration-200 hover:ease-in"
           href="/lebenslauf.pdf"
           download
           target="_blank"

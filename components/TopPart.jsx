@@ -19,14 +19,14 @@ const TopPart = () => {
           href="mailto:timon.keller@bluewin.ch"
           className="self-center md:self-start"
         >
-          <button className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue">
+          <button className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue transform hover:-translate-y-2 transition-transform duration-200 ease-in">
             Contact me
           </button>
         </a>
       </div>
       <div className="hidden  scale-100 w-full mt-24 md:mt-0 md:w-3/5 md:flex flex-col justify-center gap-y-64 md:gap-y-64 lg:gap-y-80">
         <a
-          className="w-14 inline-block opacity-60 hover:opacity-100 mb-16 relative fill-white bg-none"
+          className="w-14 inline-block opacity-60 hover:opacity-100 mb-16 relative fill-white bg-none transform hover:-translate-y-2 transition-transform duration-200 ease-in"
           href="https://github.com/TimonKeller"
           target="_blank"
           rel="noreferrer"
@@ -39,7 +39,7 @@ const TopPart = () => {
           alt="portfolio_test"
         ></img>
         <a
-          className="w-14 inline-block self-end opacity-60 hover:opacity-100 relative"
+          className="w-14 inline-block self-end opacity-60 hover:opacity-100 relative transform hover:-translate-y-2 transition-transform duration-200 ease-in"
           href="https://www.linkedin.com/in/timon-keller-364308206/"
           target="_blank"
           rel="noreferrer"
