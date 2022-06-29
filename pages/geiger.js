@@ -37,7 +37,7 @@ const geiger = () => {
             The difficulties in this project were clearly how to define the proper selection of nudges to address the users and motivate them to target. ns.  
             Since we divided the prototype into two motivation levels, we also decided on two main blocks of nudges.                 
           </p>
-          <div className='flex md:flex-row justify-center align-center gap-x-10'>
+          <div className='md:flex md:flex-row justify-center align-center gap-x-10'>
             <div>
               <h1 className=' md:text-start text-blue text-xl mb-4'>Prototype for Externally regulated behavior</h1>
               <img src='/geiger-detail.png' className='mb-10 rounded-md bg-blend-blur'/>
