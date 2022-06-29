@@ -14,55 +14,38 @@ const geiger = () => {
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet"/>
       </Head>
       <div className='flex flex-col md:shadow-md md:shadow-black md:rounded-md mt-16 md:mt-24'>
-        {<img src='/leadTool_cropped.png' className='rounded-md self-start'/>}
+        {<img src='/geiger_cropped.png' className='rounded-md self-start'/>}
         <div className='md:px-20  mt-10 md:mt-20'>
-          <h1 className='text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-10'>Lead Tool</h1>
+          <h1 className='text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-10'>GEIGER</h1>
           <p className='text-center md:text-start text-text text-lg mb-24'>
-            LeadTool is a CRUD lead management tool that allowed the sales consultants of Allianz Suisse to change the lead management process from an analog work process with simple Excel sheets to a digital work process.            
+            In the fifth semester, I and a fellow co-student designed and developed a landing page in cooperation with the GEIGER Cyber Project, which should convince potential SMEs of the GEIGER Toolbox.             
             <br/>
             <br/>
-            LeadTool was developed during the IP3/4 project at FHNW during my iCompetence studies. In each of our semesters, we had a project running where we were allowed to create a project with companies. So, besides the skills we learned through programming, we got in touch with SCRUM and the Agile process.            
+            The development of the landing page was somewhat secondary. The focus of this work was the design and the use of different nudges, which influence different motivation levels. On the whole, the focus here was on the Self-determination Theory.             
           </p>
           <h1 className='text-center md:text-start text-blue text-3xl mb-4'>
             My Role
           </h1>
           <p className='text-center md:text-start text-text text-lg mb-24'>
-            We were a team of six people who worked together on this project. My roles during the project were project owner, scrum master, and constant development team member. We took turns in the roles of Scrum master and Product owner. I was able to keep both roles for about four months. I was part of the development team during the whole project, and I helped to develop the frontend for the most part.  
-            <br/>
-            <br/>
-            I also took the UI/UX role with a fellow student and did usability testing.                
+            Since there were only two of us in the project, we did not assign roles. So, for example, we worked with Agile but did not distribute Scrum roles.   
+            However, I mainly focused on the design and the Nudge selection.                 
           </p>
           <h1 className='text-center md:text-start text-blue text-3xl mb-4'>
             Project Difficulties
           </h1>
           <p className='text-center md:text-start text-text text-lg mb-24'>
-            Since this was my first actual web application and the first time I came in contact with React and Java Spring, the start was quite challenging. However, I was lucky that some of my fellow students already had some experience with React and Spring, so they were able to help me with my questions.  
-            <br/>
-            <br/>
-            It was also the first time I was involved in a project where I worked with a real customer, and Scrum was applied.                 
+            The difficulties in this project were clearly how to define the proper selection of nudges to address the users and motivate them to target. ns.  
+            Since we divided the prototype into two motivation levels, we also decided on two main blocks of nudges.                 
           </p>
-          <h1 className='text-center md:text-start text-blue text-3xl mb-10'>
-            The Solution
-          </h1>
-          <div className='flex flex-col-reverse md:flex-row gap-x-10 justify-center'>
-            <ul className='mt-10 list-decimal marker:text-blue marker:font-caveat marker:text-2xl'>
-              <li className='text-center md:text-start text-text text-lg mb-4 text-xl'>
-                The leads are divided into two lists: the new leads and the leads that have already been processed for the first time.
-              </li>
-              <li className='text-center md:text-start text-text text-lg mb-4'>
-                All leads are visible at a glance
-              </li>
-              <li className='text-center md:text-start text-text text-lg mb-4'>
-                All CRUD operations are simple and can be executed with one click
-              </li>
-              <li className='text-center md:text-start text-text text-lg mb-4'>
-                Excel lists of leads can be imported and processed leads can be exported to Excel lists.
-              </li>
-              <li className='text-center md:text-start text-text text-lg mb-4'>
-                Leads can be assigned to one of four types, so that they are correctly assigned when exporting the list
-              </li>
-            </ul>
-            <img src='/leadTool_solution.png' className='self-center mb-10 md:w-1/2 rounded-md bg-blend-blur'/>
+          <div className='flex flex-row justify-center align-center gap-x-10'>
+            <div>
+              <h1 className=' md:text-start text-blue text-xl mb-4'>Prototype for Externally regulated behavior</h1>
+              <img src='/geiger-detail.png' className='mb-10 rounded-md bg-blend-blur'/>
+            </div>
+            <div>
+              <h1 className=' md:text-start text-blue text-xl mb-4'>Prototype for Integrated behavior</h1>
+              <img src='/geiger_detail2.png' className='mb-10 rounded-md bg-blend-blur'/>
+            </div>
           </div>
         </div>
       </div>

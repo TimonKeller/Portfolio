@@ -19,7 +19,7 @@ const TopPart = () => {
           href="mailto:timon.keller@bluewin.ch"
           className="self-center md:self-start"
         >
-          <button className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue transform hover:-translate-y-2 transition-transform duration-200 ease-in">
+          <button className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue transform hover:-translate-y-2 transition-transform duration-200 ease-in">
             Contact me
           </button>
         </a>

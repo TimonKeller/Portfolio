@@ -23,15 +23,10 @@ const Header = () => {
                   Projects
                 </span>
               </Link>
-              <Link href="#contact" smooth={true}>
-                <span className="cursor-pointer font-bold text-gray-400 hover:text-blue">
-                  Contact
-                </span>
-              </Link>
             </div>
             <div className="hidden md:inline-block">
               <a href="mailto:timon.keller@bluewin.ch">
-                <button className="font-caveat text-text font-bold text-xl mt-2 border-2 rounded-full p-2 hover:bg-blue hover:border-blue hover:-translate-y-2 transition-transform duration-200 ease-in">
+                <button className="font-caveat text-text font-bold text-xl mt-2 border-2 rounded-md p-2 hover:bg-blue hover:border-blue hover:-translate-y-2 transition-transform duration-200 ease-in">
                   Contact me
                 </button>
               </a>

@@ -17,7 +17,7 @@ const Projects = () => {
             <Link href="/leadTool">
               <img
                 src="/leadTool.png"
-                className="justify-center rounded-md cursor-pointer hover:duration-200 hover:scale-[110%] hover:ease-out"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[115%] hover:ease-out"
               />
             </Link>
           </Tilt>
@@ -34,15 +34,15 @@ const Projects = () => {
             Allianz Suisse in my third and fourth semester at the FHNW together
             with fellow students.
           </p>
-          <div className="flex flex-row">
+          <div className="flex flex-row self-center md:self-start">
             <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
               React
             </a>
             <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
               Java Spring
             </a>
-            <a className="border-b-2 p-2 text-text text-sm mb-4 opacity-60">
-              Java Spring
+            <a className="border-2 p-2 rounded-md p-2 text-text text-sm mb-4 opacity-60">
+              MySQL
             </a>
           </div>
           <Link href="/leadTool">
@@ -65,8 +65,19 @@ const Projects = () => {
             landing page with a fellow student and the GEIGER project. The page
             should convince the user to buy the product using nudges.
           </p>
+          <div className="flex flex-row self-center md:self-start">
+            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+              React
+            </a>
+            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+              Google Optimize
+            </a>
+            <a className="border-2 p-2 rounded-md p-2 text-text text-sm mb-4 opacity-60">
+              HTML5 fetch API
+            </a>
+          </div>
           <Link href="/geiger">
-            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
+            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
               Read More
             </a>
           </Link>
@@ -76,7 +87,7 @@ const Projects = () => {
             <Link href="/geiger">
               <img
                 src="/geiger.png"
-                className="justify-center rounded-md cursor-pointer hover:duration-200 hover:scale-[110%] hover:ease-out"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[110%] hover:ease-out"
               />
             </Link>
           </Tilt>
@@ -88,7 +99,7 @@ const Projects = () => {
             <Link href="goldenGoose">
               <img
                 src="/goldenGoose.png"
-                className="justify-center rounded-md cursor-pointer hover:duration-200 hover:scale-[110%] hover:ease-out"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[110%] hover:ease-out"
               />
             </Link>
           </Tilt>
@@ -105,11 +116,22 @@ const Projects = () => {
             Fiverr. It was a landing page for a stock market information server
             that should link to the discord server and the packages.
           </p>
-          <Link href="/goldenGoose">
-            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
-              Read More
+          <div className="flex flex-row self-center md:self-start">
+            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+              Next.js
             </a>
-          </Link>
+            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+              Tailwind
+            </a>
+          </div>
+          <a
+            href="https://golden-goose-v2.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in"
+          >
+            To Landingpage
+          </a>
         </div>
       </div>
       <div className="md:px-0 py-8 md:py-16 grid  md:grid-cols-12 mt-12 gap-x-16">
@@ -125,8 +147,19 @@ const Projects = () => {
             website myself and deepen my first knowledge with Next.js and
             graphcms.
           </p>
+          <div className="flex flex-row self-center md:self-start">
+            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+              Next.js
+            </a>
+            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+              GraphCMS
+            </a>
+            <a className="border-2 p-2 rounded-md p-2 text-text text-sm mb-4 opacity-60">
+              Tailwind
+            </a>
+          </div>
           <Link href="/blog">
-            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
+            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
               Read More
             </a>
           </Link>
@@ -136,7 +169,7 @@ const Projects = () => {
             <Link href="/blog">
               <img
                 src="/blog.png"
-                className="justify-center rounded-md cursor-pointer hover:duration-200 hover:scale-[110%] hover:ease-out"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[110%] hover:ease-out"
               />
             </Link>
           </Tilt>
