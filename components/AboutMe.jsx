@@ -11,13 +11,13 @@ const AboutMe = () => {
           {" "}
           This is
         </a>
-        <a className="text-center md:text-start font-caveat text-9xl text-blue font-black md:ml-52">
+        <a className="text-center md:text-start font-caveat text-7xl md:text-9xl text-blue font-black md:ml-52">
           {" "}
           Me
         </a>
       </div>
       <div className="w-full flex flex-col">
-        <p className="text-center md:text-start font-caveat text-4xl text-blue pb-4">
+        <p className="text-center md:text-start text-4xl text-blue pb-4">
           {"What I've been doing"}
         </p>
         <p className="text-center md:text-start text-xl text-text pb-8 md:pb-4">
