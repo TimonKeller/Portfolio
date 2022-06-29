@@ -43,7 +43,7 @@ const leadTool = () => {
           <h1 className='text-center md:text-start text-blue text-3xl mb-10'>
             The Solution
           </h1>
-          <div className='flex flex-row gap-x-10 justify-center'>
+          <div className='flex flex-col-reverse md:flex-row gap-x-10 justify-center'>
             <ul className='mt-10 list-decimal marker:text-blue marker:font-caveat marker:text-2xl'>
               <li className='text-center md:text-start text-text text-lg mb-4 text-xl'>
                 The leads are divided into two lists: the new leads and the leads that have already been processed for the first time.
