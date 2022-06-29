@@ -12,7 +12,7 @@ const Projects = () => {
         My recent Work
       </div>
       <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
-        <div className="lg:col-span-5 text-center">
+        <div className="lg:col-span-5 text-center place-self-center">
           <Tilt className="tilt">
             <Link href="/leadTool">
               <img
@@ -82,7 +82,7 @@ const Projects = () => {
             </a>
           </Link>
         </div>
-        <div className="lg:col-span-5 text-center order-1 lg:order-2">
+        <div className="lg:col-span-5 text-center order-1 lg:order-2 place-self-center">
           <Tilt className="tilt">
             <Link href="/geiger">
               <img
@@ -94,7 +94,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
-        <div className="lg:col-span-5 text-center">
+        <div className="lg:col-span-5 text-center place-self-center">
           <Tilt className="tilt">
             <Link href="goldenGoose">
               <img
@@ -164,7 +164,7 @@ const Projects = () => {
             </a>
           </Link>
         </div>
-        <div className="lg:col-span-5 text-center order-1 lg:order-2">
+        <div className="lg:col-span-5 text-center order-1 lg:order-2 place-self-center">
           <Tilt className="tilt">
             <Link href="/blog">
               <img
