@@ -77,7 +77,7 @@ leadTool.getLayout = function getLayout(page) {
     return (
       <div>
         <Link href='/'>
-          <img src='/close_red.png' className='h-16 w-16 absolute top-8 md:top-16 right-4 md:right-24 cursor-pointer'></img>
+          <img src='/close_red.png' className='h-16 w-16 absolute top-8 md:top-16 right-[2%] md:right-[6%] lg:right-[6%] cursor-pointer'></img>
         </Link>
         {page}
       </div>
