@@ -39,7 +39,7 @@ const TopPart = () => {
           alt="portfolio_test"
         ></img>
         <a
-          className="w-14 inline-block self-end opacity-60 hover:opacity-100 relative mt"
+          className="w-14 inline-block self-end opacity-60 hover:opacity-100 relative"
           href="https://www.linkedin.com/in/timon-keller-364308206/"
           target="_blank"
           rel="noreferrer"
