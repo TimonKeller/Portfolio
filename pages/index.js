@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { AboutMe, Contact, Projects, Skills, TopPart } from '../components'
+import { AboutMe, Layout, Projects, TopPart } from '../components'
 
 export default function Home() {
   return (
@@ -17,4 +17,12 @@ export default function Home() {
         <Projects></Projects>
     </div>
   )
+}
+
+Home.getLayout = function getLayout(page) {
+    return (
+      <Layout>
+        {page}
+      </Layout>
+    )
 }

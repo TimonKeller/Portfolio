@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from "next/link";
 
 const leadTool = () => {
   return (
@@ -12,7 +13,7 @@ const leadTool = () => {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet"/>
       </Head>
-      <div className='flex flex-col shadow-md shadow-black rounded-md'>
+      <div className='flex flex-col shadow-md shadow-black rounded-md mt-24'>
         {<img src='/leadTool_cropped.png' className='rounded-md self-start'/>}
         <div className='md:px-20  mt-10 md:mt-20'>
           <h1 className='text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-10'>Lead Tool</h1>
@@ -61,7 +62,7 @@ const leadTool = () => {
                 Leads can be assigned to one of four types, so that they are correctly assigned when exporting the list
               </li>
             </ul>
-            <img src='/leadTool_solution.png' className='self-center mb-10 w-1/2 rounded-md'/>
+            <img src='/leadTool_solution.png' className='self-center mb-10 w-1/2 rounded-md bg-blend-blur'/>
           </div>
         </div>
       </div>
@@ -70,3 +71,15 @@ const leadTool = () => {
 }
 
 export default leadTool
+
+
+leadTool.getLayout = function getLayout(page) {
+    return (
+      <div>
+        <Link href='/'>
+          <img src='/close_red.png' className='h-16 w-16 absolute top-16 right-24 cursor-pointer'></img>
+        </Link>
+        {page}
+      </div>
+    )
+}
