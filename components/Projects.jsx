@@ -87,7 +87,7 @@ const Projects = () => {
             <Link href="/geiger">
               <img
                 src="/geiger.png"
-                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[110%] hover:ease-out"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[115%] hover:ease-out"
               />
             </Link>
           </Tilt>
@@ -99,7 +99,7 @@ const Projects = () => {
             <Link href="https://golden-goose-v2.vercel.app/">
               <img
                 src="/goldenGoose.png"
-                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[110%] hover:ease-out"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[115%] hover:ease-out"
               />
             </Link>
           </Tilt>
@@ -172,7 +172,7 @@ const Projects = () => {
             <Link href="https://blog-ochre-seven.vercel.app/">
               <img
                 src="/blog.png"
-                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[110%] hover:ease-out"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[115%] hover:ease-out"
               />
             </Link>
           </Tilt>
