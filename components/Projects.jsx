@@ -130,7 +130,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in"
           >
-            To Landingpage
+            The Landingpage
           </a>
         </div>
       </div>
@@ -145,14 +145,14 @@ const Projects = () => {
           <p className="text-center md:text-start text-text text-xl mb-4">
             The blog is a private project. For this, I decided to develop the
             website myself and deepen my first knowledge with Next.js and
-            graphcms.
+            Graphcms.
           </p>
           <div className="flex flex-row self-center md:self-start">
             <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
               Next.js
             </a>
             <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
-              GraphCMS
+              Graphcms
             </a>
             <a className="border-2 p-2 rounded-md p-2 text-text text-sm mb-4 opacity-60">
               Tailwind
@@ -164,7 +164,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in"
           >
-            To Blog
+            The Blog
           </a>
         </div>
         <div className="lg:col-span-5 text-center order-1 lg:order-2 place-self-center">
