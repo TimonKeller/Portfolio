@@ -28,8 +28,9 @@ const Projects = () => {
             Lead Tool
           </p>
           <p className="text-center md:text-start text-text text-xl mb-4">
-            LeadTool is a lead management tool I developed with fellow students
-            for Allianz Suisse in the third and fourth semesters.
+            LeadTool is a CRUD web application that I was allowed to develop for
+            Allianz Suisse in my third and fourth semester at the FHNW together
+            with fellow students.
           </p>
           <Link href="/leadTool">
             <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-full p-4 hover:bg-blue hover:border-blue self-center md:self-start">

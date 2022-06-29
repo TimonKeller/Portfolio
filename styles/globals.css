@@ -30,9 +30,14 @@ a{
   box-sizing: border-box;
 }
 
+ol{
+  color: white;
+}
+
 .tilt{
   width: auto !important;
   padding: 0% !important;
   margin: 0% !important;
   background: none !important;
 }
+
