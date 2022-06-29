@@ -13,11 +13,11 @@ const leadTool = () => {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet"/>
       </Head>
-      <div className='flex flex-col shadow-md shadow-black rounded-md mt-24'>
+      <div className='flex flex-col md:shadow-md md:shadow-black md:rounded-md mt-16 md:mt-24'>
         {<img src='/leadTool_cropped.png' className='rounded-md self-start'/>}
         <div className='md:px-20  mt-10 md:mt-20'>
           <h1 className='text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-10'>Lead Tool</h1>
-          <p className='text-center md:text-start text-text text-xl mb-24'>
+          <p className='text-center md:text-start text-text text-lg mb-24'>
             LeadTool is a CRUD lead management tool that allowed the sales consultants of Allianz Suisse to change the lead management process from an analog work process with simple Excel sheets to a digital work process.            
             <br/>
             <br/>
@@ -62,7 +62,7 @@ const leadTool = () => {
                 Leads can be assigned to one of four types, so that they are correctly assigned when exporting the list
               </li>
             </ul>
-            <img src='/leadTool_solution.png' className='self-center mb-10 w-1/2 rounded-md bg-blend-blur'/>
+            <img src='/leadTool_solution.png' className='self-center mb-10 md:w-1/2 rounded-md bg-blend-blur'/>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ leadTool.getLayout = function getLayout(page) {
     return (
       <div>
         <Link href='/'>
-          <img src='/close_red.png' className='h-16 w-16 absolute top-16 right-24 cursor-pointer'></img>
+          <img src='/close_red.png' className='h-16 w-16 absolute top-8 md:top-16 right-4 md:right-24 cursor-pointer'></img>
         </Link>
         {page}
       </div>
