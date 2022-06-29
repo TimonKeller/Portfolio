@@ -96,7 +96,7 @@ const Projects = () => {
       <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
         <div className="lg:col-span-5 text-center place-self-center">
           <Tilt className="tilt">
-            <Link href="goldenGoose">
+            <Link href="https://golden-goose-v2.vercel.app/">
               <img
                 src="/goldenGoose.png"
                 className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[110%] hover:ease-out"
@@ -169,7 +169,7 @@ const Projects = () => {
         </div>
         <div className="lg:col-span-5 text-center order-1 lg:order-2 place-self-center">
           <Tilt className="tilt">
-            <Link href="/blog">
+            <Link href="https://blog-ochre-seven.vercel.app/">
               <img
                 src="/blog.png"
                 className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[110%] hover:ease-out"
