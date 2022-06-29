@@ -134,7 +134,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div className="md:px-0 py-8 md:py-16 grid  md:grid-cols-12 mt-12 gap-x-16">
+      <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
         <div className="justify-center lg:col-span-7 flex flex-col gap-y-2 order-2 lg:order-1">
           <p className="mt-4 md:mt-0 text-center md:text-start text-text text-xl mb-4 opacity-60">
             Website
