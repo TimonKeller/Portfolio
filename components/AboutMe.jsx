@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const AboutMe = () => {
   return (
@@ -7,7 +8,7 @@ const AboutMe = () => {
       id="about"
     >
       <div className=" flex mb-16 flex-col gap-y-2 tex-center md:w-2/3">
-        <a className="text-center text-7xl md:text-start font-caveat md:text-9xl text-text font-black">
+        <span className="text-center text-7xl md:text-start font-caveat md:text-9xl text-text font-black">
           {" "}
           This is
           <br />
@@ -15,13 +16,13 @@ const AboutMe = () => {
             {" "}
             Me
           </a>
-        </a>
+        </span>
       </div>
       <div className="w-full flex flex-col">
         <p className="text-center md:text-start text-4xl text-blue pb-4">
           {"What I've been doing"}
         </p>
-        <p className="text-center md:text-start text-xl text-text pb-8 md:pb-4">
+        <span className="text-center md:text-start text-xl text-text pb-8 md:pb-4">
           I’ve been studying iCompetence at the FHNW since 2019. I love creating
           cool designed projects and letting the user experience digital
           products.
@@ -30,15 +31,15 @@ const AboutMe = () => {
           Currently, I’m in the transferring phase into the working world. I’m
           looking forward to getting practical experience and learning new
           things.
-        </p>
-        <a
+        </span>
+        <Link
           className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start hover:-translate-y-2 hover:duration-200 hover:ease-in"
           href="/lebenslauf.pdf"
           download
           target="_blank"
         >
           <button>Download CV</button>
-        </a>
+        </Link>
       </div>
     </div>
   );

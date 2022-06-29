@@ -38,7 +38,7 @@ const Projects = () => {
             <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
               React
             </a>
-            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+            <a className="border-2 p-2 rounded-md text-text tex t-sm mb-4 opacity-60 mr-4">
               Java Spring
             </a>
             <a className="border-2 p-2 rounded-md p-2 text-text text-sm mb-4 opacity-60">

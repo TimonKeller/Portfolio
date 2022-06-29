@@ -17,33 +17,33 @@ const leadTool = () => {
         {<img src='/leadTool_cropped.png' className='rounded-md self-start'/>}
         <div className='md:px-20  mt-10 md:mt-20'>
           <h1 className='text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-10'>Lead Tool</h1>
-          <p className='text-center md:text-start text-text text-lg mb-24'>
+          <span className='text-center md:text-start text-text text-lg mb-24'>
             LeadTool is a CRUD lead management tool that allowed the sales consultants of Allianz Suisse to change the lead management process from an analog work process with simple Excel sheets to a digital work process.            
             <br/>
             <br/>
             LeadTool was developed during the IP3/4 project at FHNW during my iCompetence studies. In each of our semesters, we had a project running where we were allowed to create a project with companies. So, besides the skills we learned through programming, we got in touch with SCRUM and the Agile process.            
-          </p>
+          </span>
           <h1 className='text-center md:text-start text-blue text-3xl mb-4'>
             My Role
           </h1>
-          <p className='text-center md:text-start text-text text-lg mb-24'>
+          <span className='text-center md:text-start text-text text-lg mb-24'>
             We were a team of six people who worked together on this project. My roles during the project were project owner, scrum master, and constant development team member. We took turns in the roles of Scrum master and Product owner. I was able to keep both roles for about four months. I was part of the development team during the whole project, and I helped to develop the frontend for the most part.  
             <br/>
             <br/>
             I also took the UI/UX role with a fellow student and did usability testing.                
-          </p>
+          </span>
           <h1 className='text-center md:text-start text-blue text-3xl mb-4'>
             Project Difficulties
           </h1>
-          <p className='text-center md:text-start text-text text-lg mb-24'>
+          <span className='text-center md:text-start text-text text-lg mb-24'>
             Since this was my first actual web application and the first time I came in contact with React and Java Spring, the start was quite challenging. However, I was lucky that some of my fellow students already had some experience with React and Spring, so they were able to help me with my questions.  
             <br/>
             <br/>
             It was also the first time I was involved in a project where I worked with a real customer, and Scrum was applied.                 
-          </p>
+          </span>
           
           <div className='flex flex-col-reverse md:flex-row gap-x-10 justify-center'>
-            <div className='self-center'>
+            <ul className='self-center'>
               <h1 className='text-center md:text-start text-blue text-3xl mb-10'>
                 The Solution
               </h1>
@@ -64,7 +64,7 @@ const leadTool = () => {
                   Leads can be assigned to one of four types, so that they are correctly assigned when exporting the list
                 </li>
               </ul>
-            </div>
+            </ul>
             <img src='/leadTool_solution.png' className='self-center mb-10 md:w-1/2 rounded-md bg-blend-blur hover:duration-200 hover:scale-[110%] hover:ease-out'/>
           </div>
         </div>
