@@ -24,7 +24,7 @@ const TopPart = () => {
           </button>
         </a>
       </div>
-      <div className="hidden  scale-100 w-full mt-24 md:mt-0 md:w-3/5 md:flex flex-col justify-center gap-y-64 md:gap-y-64 lg:gap-y-80">
+      <div className="hidden scale-100 w-full mt-24 md:mt-0 md:w-3/5 md:flex flex-col justify-center gap-y-64 md:gap-y-64 lg:gap-y-80">
         <a
           className="w-14 inline-block opacity-60 hover:opacity-100 mb-16 relative fill-white bg-none transform hover:-translate-y-2 transition-transform duration-200 ease-in"
           href="https://github.com/TimonKeller"
