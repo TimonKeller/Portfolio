@@ -34,8 +34,7 @@ const geiger = () => {
             Project Difficulties
           </h1>
           <p className='text-center md:text-start text-text text-lg mb-24'>
-            The difficulties in this project were clearly how to define the proper selection of nudges to address the users and motivate them to target. ns.  
-            Since we divided the prototype into two motivation levels, we also decided on two main blocks of nudges.                 
+            The difficulty in this project was clearly to make the right choice of nudges to appeal to users and motivate them to download the GEIGER toolbox. Since we divided the prototype into two motivation levels, we also decided on two main blocks of nudges.                 
           </p>
           <div className='md:flex md:flex-row justify-center align-center gap-x-10'>
             <div>
