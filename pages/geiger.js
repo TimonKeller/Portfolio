@@ -58,7 +58,7 @@ export default geiger
 geiger.getLayout = function getLayout(page) {
     return (
       <div>
-        <Link href='/'>
+        <Link href='javascript:history.back()'>
           <img src='/close_red.png' className='h-16 w-16 absolute top-8 md:top-16 right-[2%] md:right-0 lg:right-[6%] cursor-pointer'></img>
         </Link>
         {page}
