@@ -10,7 +10,7 @@ My personal website, on which my projects and something about me is written.
 
 - Next.js
 - Tailwind 
-Deployed: Vercel
+- Deployed: Vercel
 
 ---
 
