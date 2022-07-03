@@ -178,6 +178,47 @@ const Projects = () => {
           </Tilt>
         </div>
       </div>
+      <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
+        <div className="lg:col-span-5 text-center place-self-center">
+          <Tilt className="tilt">
+            <Link href="https://blog-ochre-seven.vercel.app/">
+              <img
+                src="/championsleague.png"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] hover:scale-[115%] hover:ease-out"
+              />
+            </Link>
+          </Tilt>
+        </div>
+        <div className="justify-center lg:col-span-7 flex flex-col gap-y-2 order-2 lg:order-1">
+          <p className="mt-4 md:mt-0 text-center md:text-start text-text text-xl mb-4 opacity-60">
+            Data Visualization
+          </p>
+          <p className="text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-2">
+            Championsleague
+          </p>
+          <p className="text-center md:text-start text-text text-xl mb-4">
+            In one of our modules in the study, it was our task to develop a
+            data visualization page using D3.js, HTML, and CSS. As a big
+            football fan, I decided to create a football-inspired website.
+          </p>
+          <div className="flex flex-row self-center md:self-start">
+            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+              D3.js
+            </a>
+            <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
+              HTML
+            </a>
+            <a className="border-2 p-2 rounded-md p-2 text-text text-sm mb-4 opacity-60">
+              CSS
+            </a>
+          </div>
+          <Link href="/ivis">
+            <a className="font-caveat text-text font-bold text-2xl mt-6 border-2 rounded-md p-4 hover:bg-blue hover:border-blue self-center md:self-start transform hover:-translate-y-2 transition-transform duration-200 ease-in">
+              Read More
+            </a>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
