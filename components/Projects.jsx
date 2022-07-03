@@ -197,9 +197,9 @@ const Projects = () => {
             Championsleague
           </p>
           <p className="text-center md:text-start text-text text-xl mb-4">
-            In one of our modules in the study, it was our task to develop a
-            data visualization page using D3.js, HTML, and CSS. As a big
-            football fan, I decided to create a football-inspired website.
+            In one of our classes at the FHNW, it was our task to develop a data
+            visualization page using D3.js, HTML, and CSS. As a big football
+            fan, I decided to create a football-inspired website.
           </p>
           <div className="flex flex-row self-center md:self-start">
             <a className="border-2 p-2 rounded-md text-text text-sm mb-4 opacity-60 mr-4">
