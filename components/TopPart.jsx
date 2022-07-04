@@ -34,7 +34,7 @@ const TopPart = () => {
           <img src="/github_profile.png" alt="github" />
         </a>
         <img
-          className='absolute md:m-8 bg-transparent bg-[url("/blob_about.png")] bg-no-repeat bg-contain '
+          className='absolute md:m-8 bg-transparent bg-[url("/blob_about.png")] bg-no-repeat bg-contain self-center '
           src="/portfolio_test.png"
           alt="portfolio_test"
         ></img>
