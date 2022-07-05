@@ -4,7 +4,7 @@ import { AboutMe, Layout, Projects, TopPart } from '../components'
 
 export default function Home() {
   return (
-    <div className='dark:bg-background'>
+    <div className=' bg-background-light dark:bg-background'>
       <div className="container mx-auto mb-8">
         <Head>
           <title>Timon Keller</title>
