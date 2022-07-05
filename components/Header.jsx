@@ -34,7 +34,7 @@ const Header = () => {
   };
 
   return (
-    <div className=" sticky top-0 z-50 bg-white bg-background-light dark:bg-background px-4 md:px-0 z-100">
+    <div className=" sticky top-0 z-50 bg-background-light dark:bg-background px-4 md:px-0 z-100">
       <div className="container mx-auto px-4 md:px-0 py-6">
         <div className="w-full inline-block">
           <div className="md-float-left block flex justify-between items-center">
