@@ -16,33 +16,33 @@ const geiger = () => {
       <div className='flex flex-col md:shadow-md md:shadow-black md:rounded-md mt-16 md:mt-24'>
         {<img src='/geiger_cropped.png' className='rounded-md self-start'/>}
         <div className='md:px-20  mt-10 md:mt-20'>
-          <h1 className='text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-10'>GEIGER</h1>
-          <p className='text-center md:text-start text-text text-lg mb-24'>
+          <h1 className='text-center md:text-start font-caveat text-orange dark:text-blue text-5xl md:text-6xl mb-10'>GEIGER</h1>
+          <p className='text-center md:text-start text-text_light dark:text-text text-lg mb-24'>
             In the fifth semester, I and a fellow co-student designed and developed a landing page in cooperation with the GEIGER Cyber Project, which should convince potential SMEs of the GEIGER Toolbox.             
             <br/>
             <br/>
             The development of the landing page was somewhat secondary. The focus of this work was the design and the use of different nudges, which influence different motivation levels. On the whole, the focus here was on the Self-determination Theory.             
           </p>
-          <h1 className='text-center md:text-start text-blue text-3xl mb-4'>
+          <h1 className='text-center md:text-start text-orange dark:text-blue text-3xl mb-4'>
             My Role
           </h1>
-          <p className='text-center md:text-start text-text text-lg mb-24'>
+          <p className='text-center md:text-start text-text_light dark:text-text text-lg mb-24'>
             Since there were only two of us in the project, we did not assign roles. So, for example, we worked with Agile but did not distribute Scrum roles.   
             However, I mainly focused on the design and the Nudge selection.                 
           </p>
-          <h1 className='text-center md:text-start text-blue text-3xl mb-4'>
+          <h1 className='text-center md:text-start text-orange dark:text-blue text-3xl mb-4'>
             Project Difficulties
           </h1>
-          <p className='text-center md:text-start text-text text-lg mb-24'>
+          <p className='text-center md:text-start text-text_light dark:text-text text-lg mb-24'>
             The difficulty in this project was clearly to make the right choice of nudges to appeal to users and motivate them to download the GEIGER toolbox. Since we divided the prototype into two motivation levels, we also decided on two main blocks of nudges.                 
           </p>
           <div className='md:flex md:flex-row justify-center align-center gap-x-10'>
             <div>
-              <h1 className=' md:text-start text-blue text-xl mb-4'>Prototype for Externally regulated behavior</h1>
+              <h1 className=' md:text-start text-orange dark:text-blue text-xl mb-4'>Prototype for Externally regulated behavior</h1>
               <img src='/geiger-detail.png' className='mb-10 rounded-md bg-blend-blur'/>
             </div>
             <div>
-              <h1 className=' md:text-start text-blue text-xl mb-4'>Prototype for Integrated behavior</h1>
+              <h1 className=' md:text-start text-orange dark:text-blue text-xl mb-4'>Prototype for Integrated behavior</h1>
               <img src='/geiger_detail2.png' className='mb-10 rounded-md bg-blend-blur'/>
             </div>
           </div>

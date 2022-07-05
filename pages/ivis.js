@@ -16,17 +16,17 @@ const ivis = () => {
       <div className='flex flex-col md:shadow-md md:shadow-black md:rounded-md mt-16 md:mt-24'>
         {<img src='/ivis_cropped.png' className='rounded-md self-start'/>}
         <div className='md:px-20  mt-10 md:mt-20'>
-          <h1 className='text-center md:text-start font-caveat text-blue text-5xl md:text-6xl mb-10'>Championsleague</h1>
-          <p className='text-center md:text-start text-text text-lg mb-24'>
+          <h1 className='text-center md:text-start font-caveat text-orange dark:text-blue text-5xl md:text-6xl mb-10'>Championsleague</h1>
+          <p className='text-center md:text-start text-text_light dark:text-text text-lg mb-24'>
             In the module data visualization, it was our task to design a website with d3.js, HMTL, and CSS in one semester, on which we could display data of a data bank or similar. The goal was to make the data visually appealing and wrap it in a story.              
             <br/>
             <br/>
             {"The work should be group work, but I dared to do this task alone. Not because I didn't want to work in a team, but I just wanted to prove that I could handle such projects on my own towards the end of my studies."}             
           </p>
-          <h1 className='text-center md:text-start text-blue text-3xl mb-4'>
+          <h1 className='text-center md:text-start text-orange dark:text-blue text-3xl mb-4'>
             Project Difficulties
           </h1>
-          <p className='text-center md:text-start text-text text-lg mb-24'>
+          <p className='text-center md:text-start text-text_light dark:text-text text-lg mb-24'>
             The difficulty in this project was how to package this very simple data about football into a nice looking graph. These graphs should be understandable at first sight and should not have to be explained.     
             <br/>
             <br/>

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -9,7 +10,9 @@ module.exports = {
       colors:{
         'background': '#1A1A1A',
         'text': '#FAF9F6',
-        'blue': '#0080FF'
+        'text_light': '#454545',
+        'blue': '#0080FF',
+        'orange': '#fc9800'
       },
       fontFamily: {
         'caveat': ['Caveat', 'sans-serif'] 
