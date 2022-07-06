@@ -19,14 +19,14 @@ const Header = () => {
     if (currentTheme === "dark") {
       return (
         <SunIcon
-          className="w-7 h-7 fill-blue"
+          className="w-7 h-7 fill-text hover:fill-blue cursor-pointer transform hover:scale-125 transition-transform duration-200 ease-in"
           onClick={() => setTheme("light")}
         ></SunIcon>
       );
     } else {
       return (
         <MoonIcon
-          className="w-7 h-7 fill-orange"
+          className="w-7 h-7 fill-text_light hover:fill-orange cursor-pointer transform hover:scale-125 transition-transform duration-200 ease-in"
           onClick={() => setTheme("dark")}
         ></MoonIcon>
       );
@@ -43,14 +43,14 @@ const Header = () => {
                 Timon.
               </span>
             </Link>
-            <div className=" hidden md:inline-block text-md">
+            <div className=" hidden md:inline-block text-md self-center">
               <Link href="#about" smooth>
-                <span className="cursor-pointer font-bold text-gray-400 hover:text-orange hover:dark:text-blue pr-4">
+                <span className="cursor-pointer font-bold text-text_light dark:text-text hover:text-orange hover:dark:text-blue pr-4 self-center">
                   About me
                 </span>
               </Link>
               <Link href="#projects" smooth={true}>
-                <span className="cursor-pointer font-bold text-gray-400 hover:text-orange hover:dark:text-blue pr-4">
+                <span className="cursor-pointer font-bold text-text_light dark:text-text hover:text-orange hover:dark:text-blue pr-4">
                   Projects
                 </span>
               </Link>
