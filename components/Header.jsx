@@ -19,14 +19,14 @@ const Header = () => {
     if (currentTheme === "dark") {
       return (
         <SunIcon
-          className="w-7 h-7 fill-text hover:fill-blue cursor-pointer transform hover:scale-125 transition-transform duration-200 ease-in"
+          className="w-7 h-7 fill-text md:hover:fill-blue cursor-pointer transform md:hover:scale-125 transition-transform duration-200 ease-in"
           onClick={() => setTheme("light")}
         ></SunIcon>
       );
     } else {
       return (
         <MoonIcon
-          className="w-7 h-7 fill-text_light hover:fill-orange cursor-pointer transform hover:scale-125 transition-transform duration-200 ease-in"
+          className="w-7 h-7 fill-text_light md:hover:fill-orange cursor-pointer transform md:hover:scale-125 transition-transform duration-200 ease-in"
           onClick={() => setTheme("dark")}
         ></MoonIcon>
       );
