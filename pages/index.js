@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 import { AboutMe, Layout, Projects, TopPart } from '../components'
-import Script from 'next/script';
+
 
 
 export default function Home() {
