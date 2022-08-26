@@ -12,6 +12,54 @@ const Projects = () => {
         My recent Work
       </div>
       <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
+        <div className="lg:col-span-5 text-center place-self-center lg:order-1">
+          <Tilt className="tilt">
+            <Link href="/bachelor">
+              <img
+                src="/bachelor.png"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] md:hover:scale-[115%] hover:ease-out"
+              />
+            </Link>
+          </Tilt>
+        </div>
+        <div className="justify-center lg:col-span-7 flex flex-col gap-y-2">
+          <p className="mt-4 md:mt-0 text-center md:text-start text-text_light dark:text-text text-xl mb-4 opacity-60">
+            Bachelor Thesis
+          </p>
+          <p className="text-center md:text-start font-caveat text-orange dark:text-blue text-5xl md:text-6xl mb-2">
+            Real-time synchronization with an immersive, digital showroom
+          </p>
+          <p className="text-center md:text-start text-text_light dark:text-text text-xl mb-4">
+            The focus of this work is on the interface between a provider of a
+            technical product and a provider of immersive showrooms. Using an
+            exemplary product, the interactive presentation of this product in
+            combination with a real-time interface to the immersive solution
+            will be investigated. Thus, a local exploration can be transformed
+            into a space-based group experience - with possibilities of
+            large-scale displays, real-time sharing and moderation.
+          </p>
+          <div className="flex flex-row self-center md:self-start">
+            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+              Unity
+            </a>
+            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+              Javascript
+            </a>
+            <a className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60">
+              C#
+            </a>
+            <a className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60">
+              C#
+            </a>
+          </div>
+          <Link href="/bachelor">
+            <a className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-orange hover:border-orange hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in self-center md:self-start">
+              Read More
+            </a>
+          </Link>
+        </div>
+      </div>
+      <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
         <div className="lg:col-span-5 text-center place-self-center">
           <Tilt className="tilt">
             <Link href="/leadTool">
@@ -159,7 +207,7 @@ const Projects = () => {
             </a>
           </div>
           <a
-            href="https://blog-ochre-seven.vercel.app/"
+            href="https://www.akihi.ch/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-orange hover:border-orange hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in self-center md:self-start"
@@ -169,7 +217,7 @@ const Projects = () => {
         </div>
         <div className="lg:col-span-5 text-center order-1 lg:order-2 place-self-center">
           <Tilt className="tilt">
-            <Link href="https://blog-ochre-seven.vercel.app/">
+            <Link href="https://www.akihi.ch/">
               <img
                 src="/blog.png"
                 className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] md:hover:scale-[115%] hover:ease-out"
