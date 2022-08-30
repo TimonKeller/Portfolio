@@ -48,9 +48,6 @@ const Projects = () => {
             <a className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60">
               C#
             </a>
-            <a className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60">
-              C#
-            </a>
           </div>
           <Link href="/bachelor">
             <a className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-orange hover:border-orange hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in self-center md:self-start">
