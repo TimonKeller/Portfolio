@@ -28,9 +28,9 @@ const AboutMe = () => {
           products.
           <br />
           <br />
-          Currently, I’m in the transferring phase into the working world. I’m
-          looking forward to getting practical experience and learning new
-          things.
+          Currently, I'm gaining my first experience in the working world as a
+          software engineer. I love learning new technologies, expanding my
+          skills and getting practical experience.
         </span>
         <a
           href="/CV.pdf"
