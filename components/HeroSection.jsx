@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
-const TopPart = () => {
+const HeroSection = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -63,14 +63,13 @@ const TopPart = () => {
     <div className="container pt-12 px-16 md:py-24 md:flex md:flex-row gap-x-8 items-center ">
       <div className="flex flex-col gap-y-4 tex-center">
         <a className="text-center md:text-start font-caveat text-2xl text-text_light dark:text-text">
-          {" "}
-          {"Hi, I'm Timon Keller"}{" "}
+          {"Hi, I'm Timon Keller"}
         </a>
         <p className="text-center md:text-start text-5xl md:text-6xl text-text_light dark:text-text">
-          Creating experiences, building digital products{" "}
+          Creating experiences, building digital products
         </p>
         <p className="text-center md:text-start text-xl text-orange dark:text-blue">
-          Looking for my first opportunity
+          Currently enjoying my job
         </p>
         <a
           href="mailto:timon.keller@bluewin.ch"
@@ -104,4 +103,4 @@ const TopPart = () => {
   );
 };
 
-export default TopPart;
+export default HeroSection;
