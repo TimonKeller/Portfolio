@@ -28,8 +28,8 @@ const AboutMe = () => {
           products.
           <br />
           <br />
-          Currently, I'm gaining my first experience in the working world as a
-          software engineer. I love learning new technologies, expanding my
+          Currently, I&apos;m gaining my first experience in the working world
+          as a software engineer. I love learning new technologies, expanding my
           skills and getting practical experience.
         </span>
         <a
