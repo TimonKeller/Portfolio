@@ -20,12 +20,12 @@ const AboutMe = () => {
       </div>
       <div className="w-full flex flex-col">
         <p className="text-center md:text-start text-4xl text-orange dark:text-blue pb-4">
-          {"What I've been doing"}
+          What I&apos;ve been doing
         </p>
         <span className="text-center md:text-start text-xl text-text_light dark:text-text pb-8 md:pb-4">
-          I’ve been studying iCompetence at the FHNW since 2019. I love creating
-          cool designed projects and letting the user experience digital
-          products.
+          I&apos;ve been studying iCompetence at the FHNW since 2019. I love
+          creating cool designed projects and letting the user experience
+          digital products.
           <br />
           <br />
           Currently, I&apos;m gaining my first experience in the working world

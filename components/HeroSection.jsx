@@ -63,7 +63,7 @@ const HeroSection = () => {
     <div className="container pt-12 px-16 md:py-24 md:flex md:flex-row gap-x-8 items-center ">
       <div className="flex flex-col gap-y-4 tex-center">
         <a className="text-center md:text-start font-caveat text-2xl text-text_light dark:text-text">
-          {"Hi, I'm Timon Keller"}
+          Hi, I&apos;m Timon Keller
         </a>
         <p className="text-center md:text-start text-5xl md:text-6xl text-text_light dark:text-text">
           Creating experiences, building digital products
