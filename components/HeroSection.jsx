@@ -89,7 +89,7 @@ const HeroSection = () => {
   };
   return (
     <div className="container pt-12 px-8 md:py-48 flex md:flex-row gap-x-8 items-center">
-      <div className="text-section flex flex-col gap-y-4 tex-center mr-8">
+      <div className="text-section flex flex-col gap-y-4 tex-center">
         <a className="text-center md:text-start font-caveat text-2xl text-text_light dark:text-text">
           Hi there, I&apos;m Timon
         </a>
