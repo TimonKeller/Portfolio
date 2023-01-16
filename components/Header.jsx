@@ -26,7 +26,7 @@ const Header = () => {
     } else {
       return (
         <MoonIcon
-          className="w-7 h-7 fill-text_light md:hover:fill-orange cursor-pointer transform md:hover:scale-125 transition-transform duration-200 ease-in"
+          className="w-7 h-7 fill-text_light md:hover:fill-pink cursor-pointer transform md:hover:scale-125 transition-transform duration-200 ease-in"
           onClick={() => setTheme("dark")}
         ></MoonIcon>
       );
@@ -39,18 +39,18 @@ const Header = () => {
         <div className="w-full inline-block">
           <div className="md-float-left block flex justify-between items-center">
             <Link href="/">
-              <span className="font-caveat text-orange dark:text-blue cursor-pointer font-bold text-4xl">
+              <span className="font-caveat text-pink dark:text-blue cursor-pointer font-bold text-4xl">
                 Timon.
               </span>
             </Link>
             <div className=" hidden md:inline-block text-md self-center">
               <Link href="#about" smooth>
-                <span className="cursor-pointer font-bold text-text_light dark:text-text hover:text-orange hover:dark:text-blue pr-4 self-center">
+                <span className="cursor-pointer font-bold text-text_light dark:text-text hover:text-pink hover:dark:text-blue pr-4 self-center">
                   About me
                 </span>
               </Link>
               <Link href="#projects" smooth={true}>
-                <span className="cursor-pointer font-bold text-text_light dark:text-text hover:text-orange hover:dark:text-blue pr-4">
+                <span className="cursor-pointer font-bold text-text_light dark:text-text hover:text-pink hover:dark:text-blue pr-4">
                   Projects
                 </span>
               </Link>
@@ -63,7 +63,7 @@ const Header = () => {
                 className="hidden md:inline-block"
                 href="mailto:timon.keller@bluewin.ch"
               >
-                <button className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-orange hover:border-orange hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in">
+                <button className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-pink hover:border-pink hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in">
                   Contact me
                 </button>
               </a>
