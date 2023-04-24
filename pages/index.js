@@ -1,6 +1,12 @@
 import { ThemeProvider } from "next-themes";
 import Head from "next/head";
-import { AboutMe, Layout, Projects, HeroSection } from "../components";
+import {
+  AboutMe,
+  Layout,
+  Projects,
+  HeroSection,
+  ScrollToTop,
+} from "../components";
 
 export default function Home() {
   return (
@@ -20,6 +26,7 @@ export default function Home() {
         <HeroSection></HeroSection>
         <AboutMe></AboutMe>
         <Projects></Projects>
+        <ScrollToTop></ScrollToTop>
       </div>
     </div>
   );
