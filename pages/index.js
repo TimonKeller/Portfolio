@@ -26,7 +26,7 @@ export default function Home() {
         <HeroSection></HeroSection>
         <AboutMe></AboutMe>
         <Projects></Projects>
-        <ScrollToTop></ScrollToTop>
+        <ScrollToTop className="hidden md:block"></ScrollToTop>
       </div>
     </div>
   );

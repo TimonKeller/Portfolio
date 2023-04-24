@@ -30,7 +30,7 @@ const ScrollToTop = () => {
 
   return (
     <div
-      className="fixed bottom-5 right-5 w-32 h-32 bg-gray-800 rounded-full flex justify-center items-center cursor-pointer z-50"
+      className="fixed bottom-5 right-5 w-32 h-32 bg-gray-800 rounded-full flex justify-center items-center cursor-pointer z-50 hidden md:flex"
       onClick={scrollToTop}
     >
       <div className="absolute pointer-events-none">
@@ -50,7 +50,7 @@ const ScrollToTop = () => {
       </div>
       <img
         src="/arrow.png"
-        className="rotate-90 w-20 w-auto pointer-events-none"
+        className="rotate-90 h-10  pointer-events-none"
         alt="upArrow"
       />
     </div>
