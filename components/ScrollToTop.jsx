@@ -30,27 +30,27 @@ const ScrollToTop = () => {
 
   return (
     <div
-      className="fixed bottom-5 right-5 w-32 h-32 bg-gray-800 rounded-full flex justify-center items-center cursor-pointer z-50 hidden md:flex"
+      className="fixed bottom-5 right-5 w-16 h-16 bg-gray-800 rounded-full flex justify-center items-center cursor-pointer z-50 hidden md:flex"
       onClick={scrollToTop}
     >
       <div className="absolute pointer-events-none">
-        <svg className="transform -rotate-90 w-32 h-32">
+        <svg className="transform -rotate-90 w-16 h-16">
           <circle
-            cx="64"
-            cy="64"
-            r="60"
+            cx="32"
+            cy="32"
+            r="30"
             stroke="white"
-            strokeWidth="10"
+            strokeWidth="5"
             strokeLinecap="round"
             fill="none"
-            strokeDasharray="376.8"
-            style={{ strokeDashoffset: 376.8 - (scrollProgress * 376.8) / 100 }}
+            strokeDasharray="188.4"
+            style={{ strokeDashoffset: 188.4 - (scrollProgress * 188.4) / 100 }}
           />
         </svg>
       </div>
       <img
         src="/arrow.png"
-        className="rotate-90 h-10  pointer-events-none"
+        className="rotate-90 h-6  pointer-events-none"
         alt="upArrow"
       />
     </div>
