@@ -121,9 +121,9 @@ const Projects = () => {
               HTML5 fetch API
             </a>
           </div>
-          <Link href="/geiger">
+          <Link href="https://cyberniinja.github.io/geiger-nudging/">
             <a className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-pink hover:border-pink hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in self-center md:self-start">
-              Read More
+              The Site
             </a>
           </Link>
         </div>
@@ -131,7 +131,7 @@ const Projects = () => {
           <Tilt className="tilt">
             <Link href="/geiger">
               <img
-                src="/geiger.png"
+                src="https://cyberniinja.github.io/geiger-nudging/"
                 className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] md:hover:scale-[115%] hover:ease-out"
               />
             </Link>
