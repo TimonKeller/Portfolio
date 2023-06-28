@@ -129,9 +129,9 @@ const Projects = () => {
         </div>
         <div className="lg:col-span-5 text-center order-1 lg:order-2 place-self-center">
           <Tilt className="tilt">
-            <Link href="/geiger">
+            <Link href="https://cyberniinja.github.io/geiger-nudging/">
               <img
-                src="https://cyberniinja.github.io/geiger-nudging/"
+                src="/geiger.png"
                 className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] md:hover:scale-[115%] hover:ease-out"
               />
             </Link>
