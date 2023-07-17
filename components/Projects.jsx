@@ -226,7 +226,7 @@ const Projects = () => {
       <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
         <div className="lg:col-span-5 text-center place-self-center">
           <Tilt className="tilt">
-            <Link href="/ivis">
+            <Link href="https://timonkeller.github.io/ivis/">
               <img
                 src="/championsleague.png"
                 className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] md:hover:scale-[115%] hover:ease-out"
@@ -257,11 +257,14 @@ const Projects = () => {
               CSS
             </a>
           </div>
-          <Link href="/ivis">
-            <a className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-pink hover:border-pink hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in self-center md:self-start">
-              Read More
-            </a>
-          </Link>
+          <a
+            href="https://timonkeller.github.io/ivis/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-pink hover:border-pink hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in self-center md:self-start"
+          >
+            The Website
+          </a>
         </div>
       </div>
     </div>
