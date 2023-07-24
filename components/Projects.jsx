@@ -32,10 +32,9 @@ const Projects = () => {
           <p className="text-center md:text-start text-text_light dark:text-text text-xl mb-4">
             This project involved creating a fully functioning, appealing
             website for a bakery. The website offers an intuitive shopping
-            experience, a product detail page with SEO optimization, a shopping
-            cart, and a checkout function. All products can be managed through a
-            simple content management system (CMS). A highlight is the
-            dynamically updated shopping cart that reflects stock in real-time.
+            experience, a product detail page with SEO optimization, and a
+            shopping cart. A highlight is the dynamically updated shopping cart
+            that reflects stock in real-time.
           </p>
           <div className="flex flex-row self-center md:self-start">
             <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
