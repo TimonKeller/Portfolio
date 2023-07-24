@@ -27,17 +27,15 @@ const Projects = () => {
             Bakery Website Project
           </p>
           <p className="text-center md:text-start font-caveat text-pink dark:text-blue text-5xl md:text-6xl mb-2">
-            Design und Implementierung einer modernen Bäckerei-Website
+            Design and Implementation of a Modern Bakery Website
           </p>
           <p className="text-center md:text-start text-text_light dark:text-text text-xl mb-4">
-            Im Rahmen dieses Projekts wurde eine voll funktionsfähige,
-            ansprechende Website für eine Bäckerei erstellt. Die Website bietet
-            ein intuitives Shopping-Erlebnis, eine Produktdetailseite mit
-            SEO-Optimierung, einen Warenkorb und eine Checkout-Funktion. Alle
-            Produkte können über ein einfaches Content-Management-System (CMS)
-            verwaltet werden. Ein besonderes Highlight ist der dynamisch
-            aktualisierte Warenkorb, der in Echtzeit den Warenbestand
-            reflektiert.
+            This project involved creating a fully functioning, appealing
+            website for a bakery. The website offers an intuitive shopping
+            experience, a product detail page with SEO optimization, a shopping
+            cart, and a checkout function. All products can be managed through a
+            simple content management system (CMS). A highlight is the
+            dynamically updated shopping cart that reflects stock in real-time.
           </p>
           <div className="flex flex-row self-center md:self-start">
             <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
