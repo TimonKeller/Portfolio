@@ -12,6 +12,52 @@ const Projects = () => {
         My recent Work
       </div>
       <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
+        <div className="lg:col-span-5 text-center place-self-center ">
+          <Tilt className="tilt">
+            <Link href="https://neasbakery.vercel.app/">
+              <img
+                src="/bakery.png"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] md:hover:scale-[115%] hover:ease-out"
+              />
+            </Link>
+          </Tilt>
+        </div>
+        <div className="justify-center lg:col-span-7 flex flex-col gap-y-2">
+          <p className="mt-4 md:mt-0 text-center md:text-start text-text_light dark:text-text text-xl mb-4 opacity-60">
+            Bakery Website Project
+          </p>
+          <p className="text-center md:text-start font-caveat text-pink dark:text-blue text-5xl md:text-6xl mb-2">
+            Design und Implementierung einer modernen Bäckerei-Website
+          </p>
+          <p className="text-center md:text-start text-text_light dark:text-text text-xl mb-4">
+            Im Rahmen dieses Projekts wurde eine voll funktionsfähige,
+            ansprechende Website für eine Bäckerei erstellt. Die Website bietet
+            ein intuitives Shopping-Erlebnis, eine Produktdetailseite mit
+            SEO-Optimierung, einen Warenkorb und eine Checkout-Funktion. Alle
+            Produkte können über ein einfaches Content-Management-System (CMS)
+            verwaltet werden. Ein besonderes Highlight ist der dynamisch
+            aktualisierte Warenkorb, der in Echtzeit den Warenbestand
+            reflektiert.
+          </p>
+          <div className="flex flex-row self-center md:self-start">
+            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+              Next.js
+            </a>
+            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+              MongoDB
+            </a>
+            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60">
+              Tailwind CSS
+            </a>
+          </div>
+          <Link href="https://neasbakery.vercel.app/">
+            <a className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-pink hover:border-pink hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in self-center md:self-start">
+              The Site
+            </a>
+          </Link>
+        </div>
+      </div>
+      <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
         <div className="lg:col-span-5 text-center place-self-center lg:order-1">
           <Tilt className="tilt">
             <Link href="/bachelor">
