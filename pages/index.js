@@ -20,6 +20,10 @@ export default function Home() {
             name="description"
             content="Timon Keller, erfahrener Software Engineer aus der Schweiz, präsentiert seine Softwareentwicklungsprojekte und Fähigkeiten. Entdecken Sie meine Arbeit und meinen Werdegang auf meiner offiziellen Website."
           />
+          <meta
+            name="google-site-verification"
+            content="S37p6jyomCvNOFbHXicptzwnt6QLb2amOOeMjLEI2Sc"
+          />
           <link rel="icon" href="/TK_Logo.png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
