@@ -37,13 +37,28 @@ const Projects = () => {
             that reflects stock in real-time.
           </p>
           <div className="flex flex-row self-center md:self-start">
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://nextjs.org/"
+              target="_blank"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+              rel="noreferrer"
+            >
               Next.js
             </a>
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://www.mongodb.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               MongoDB
             </a>
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60">
+            <a
+              href="https://tailwindcss.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60"
+            >
               Tailwind CSS
             </a>
           </div>
@@ -82,13 +97,28 @@ const Projects = () => {
             large-scale displays, real-time sharing and moderation.
           </p>
           <div className="flex flex-row self-center md:self-start">
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://unity.com/pages/unity-pro-buy-now?utm_source=google&utm_medium=cpc&utm_campaign=cc_dd_upr_emea_emea-t2_en_pu_sem-gg_acq_br-pr_2023-01_brand-et2_cc3022_ev-br_id:71700000105990829&utm_content=cc_dd_upr_emea_pu_sem_gg_ev-br_pros_x_npd_cpc_kw_sd_all_x_x_brand_id:58700008262875240&utm_term=unity&&&gclid=CjwKCAjwrranBhAEEiwAzbhNtZ5eEJkoCGdsKJSmS3_vK6kIZ3vwlxKveCExu_Xz53lmzHhqrmlQYRoCh04QAvD_BwE&gclsrc=aw.ds"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               Unity
             </a>
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=de"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               Javascript
             </a>
-            <a className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60">
+            <a
+              href="https://learn.microsoft.com/de-de/dotnet/csharp/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60"
+            >
               C#
             </a>
           </div>
@@ -123,13 +153,28 @@ const Projects = () => {
             with fellow students.
           </p>
           <div className="flex flex-row self-center md:self-start">
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://react.dev/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               React
             </a>
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://spring.io/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               Java Spring
             </a>
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://www.mysql.com/de/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               MySQL
             </a>
           </div>
@@ -154,13 +199,28 @@ const Projects = () => {
             should convince the user to buy the product using nudges.
           </p>
           <div className="flex flex-row self-center md:self-start">
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://react.dev/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               React
             </a>
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://optimize.withgoogle.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               Google Optimize
             </a>
-            <a className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60">
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60"
+            >
               HTML5 fetch API
             </a>
           </div>
@@ -205,11 +265,21 @@ const Projects = () => {
             that should link to the discord server and the packages.
           </p>
           <div className="flex flex-row self-center md:self-start">
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://nextjs.org/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               Next.js
             </a>
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
-              Tailwind
+            <a
+              href="https://tailwindcss.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
+              Tailwind CSS
             </a>
           </div>
           <a
@@ -236,13 +306,28 @@ const Projects = () => {
             Graphcms.
           </p>
           <div className="flex flex-row self-center md:self-start">
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://nextjs.org/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               Next.js
             </a>
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://hygraph.com/?utm_campaign=brand&utm_source=gads&utm_medium=paid&utm_term=graphcms&utm_campaign=EN_GL_Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=2816788452&hsa_cam=10388867013&hsa_grp=106998344847&hsa_ad=648925742365&hsa_src=g&hsa_tgt=kwd-815138469251&hsa_kw=graphcms&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad=1&gclid=CjwKCAjwrranBhAEEiwAzbhNtfjUC-Bgre-tY9z3KFQZgivbsU6zM7v6SUhnAdhDkdXuA30pxoTZXhoCuHMQAvD_BwE"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               Graphcms
             </a>
-            <a className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60">
+            <a
+              href="https://tailwindcss.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60"
+            >
               Tailwind
             </a>
           </div>
@@ -290,14 +375,29 @@ const Projects = () => {
             fan, I decided to create a football-inspired website.
           </p>
           <div className="flex flex-row self-center md:self-start">
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
+            <a
+              href="https://d3js.org/"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
               D3.js
             </a>
-            <a className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4">
-              HTML
+            <a
+              href="https://de.wikipedia.org/wiki/HTML5#:~:text=HTML5%20ist%20die%20f%C3%BCnfte%20Fassung,vorwiegend%20im%20World%20Wide%20Web."
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
+              HTML5
             </a>
-            <a className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60">
-              CSS
+            <a
+              href="https://de.wikipedia.org/wiki/CSS3"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md p-2 text-text_light dark:text-text text-sm mb-4 opacity-60"
+            >
+              CSS3
             </a>
           </div>
           <a
