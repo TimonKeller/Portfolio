@@ -32,7 +32,7 @@ const AboutMe = () => {
           as a software engineer. I love learning new technologies, expanding my
           skills and getting practical experience.
         </span>
-        <a
+        {/* <a
           href="/CV.pdf"
           download
           target="_blank"
@@ -41,7 +41,7 @@ const AboutMe = () => {
           <button className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-pink hover:border-pink hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in">
             Download CV
           </button>
-        </a>
+        </a> */}
       </div>
     </div>
   );
