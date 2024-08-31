@@ -332,7 +332,7 @@ const Projects = () => {
             </a>
           </div>
           <a
-            href="https://www.akihi.ch/"
+            href="https://blog-685y12fsi-timonkeller.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-pink hover:border-pink hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in self-center md:self-start"
