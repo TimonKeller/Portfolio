@@ -342,7 +342,7 @@ const Projects = () => {
         </div>
         <div className="lg:col-span-5 text-center order-1 lg:order-2 place-self-center">
           <Tilt className="tilt">
-            <Link href="https://www.akihi.ch/">
+            <Link href="https://blog-685y12fsi-timonkeller.vercel.app/">
               <img
                 src="/blog.png"
                 className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] md:hover:scale-[115%] hover:ease-out"
