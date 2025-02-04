@@ -12,6 +12,52 @@ const Projects = () => {
         My recent Work
       </div>
       <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
+        <div className="lg:col-span-5 text-center place-self-center lg:order-1">
+          <Tilt className="tilt">
+            <Link href="https://www.doppelpass-shop.ch/">
+              <img
+                src="/doppelpass.png"
+                className="justify-center rounded-md cursor-pointer hover:duration-200 md:scale-[110%] md:hover:scale-[115%] hover:ease-out"
+              />
+            </Link>
+          </Tilt>
+        </div>
+        <div className="justify-center lg:col-span-7 flex flex-col gap-y-2">
+          <p className="mt-4 md:mt-0 text-center md:text-start text-text_light dark:text-text text-xl mb-4 opacity-60">
+            Shopify Store
+          </p>
+          <p className="text-center md:text-start font-caveat text-pink dark:text-blue text-5xl md:text-6xl mb-2">
+            Customize a Shopify Store
+          </p>
+          <p className="text-center md:text-start text-text_light dark:text-text text-xl mb-4">
+          The focus of this work is on enhancing the user experience and functionality of a Shopify store. By adapting the design, developing custom components, and modifying the theme, the project creates a unique, interactive platform. This tailored solution seamlessly combines visual appeal with technical innovation, allowing for dynamic updates and improved navigation.
+          </p>
+          <div className="flex flex-row self-center md:self-start">
+            <a
+              href="https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
+              Liquid
+            </a>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=de"
+              target="_blank"
+              rel="noreferrer"
+              className="border-2 p-2 rounded-md text-text_light dark:text-text text-sm mb-4 opacity-60 mr-4"
+            >
+              Javascript
+            </a>
+          </div>
+          <Link href="https://www.doppelpass-shop.ch/">
+            <a className="font-caveat text-text_light dark:text-text border-text_light dark:border-text font-bold text-xl  border-2 rounded-md p-4 hover:bg-pink hover:border-pink hover:dark:bg-blue hover:dark:border-blue transform hover:-translate-y-2 hover:text-text transition-transform duration-200 ease-in self-center md:self-start">
+              The Store
+            </a>
+          </Link>
+        </div>
+      </div>
+      <div className="md:px-0 py-8 md:py-16 grid md:grid-cols-12 mt-12 gap-x-16">
         <div className="lg:col-span-5 text-center place-self-center ">
           <Tilt className="tilt">
             <Link href="https://neasbakery.vercel.app/">
@@ -22,6 +68,7 @@ const Projects = () => {
             </Link>
           </Tilt>
         </div>
+        
         <div className="justify-center lg:col-span-7 flex flex-col gap-y-2">
           <p className="mt-4 md:mt-0 text-center md:text-start text-text_light dark:text-text text-xl mb-4 opacity-60">
             Bakery Website Project
